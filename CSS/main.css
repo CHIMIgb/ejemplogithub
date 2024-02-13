@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #EEF4FF; /* Color de fondo suave */
+}
+
+.container__landing {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Dos columnas */
+    gap: 20px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px;
+    background-color: #fff; /* Fondo blanco */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Sutil sombra */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+.text {
+    text-align: left; /* Alineación del texto a la izquierda */
+}
+
+.text h1 {
+    font-size: 2em;
+    font-weight: 700;
+    color: #007bff; /* Color azul principal */
+}
+
+.text p {
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+.images img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sutil sombra en las imágenes */
+}
+.container, .form-label, .form-control{
+    background-color: white;
+}
